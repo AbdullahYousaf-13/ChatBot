@@ -6,11 +6,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="chat-container">
-    <h2>ChatBot 🤖</h2>
-    <div id="chat-box"></div>
-    <input type="text" id="user-input" placeholder="Type a message..." />
-    <button onclick="sendMessage()">Send</button>
+  <div class="chat-wrapper">
+    <div class="chat-header">🤖 AI ChatBot</div>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type a message..." onkeydown="if(event.key==='Enter') sendMessage()" />
+      <button onclick="sendMessage()">➤</button>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
