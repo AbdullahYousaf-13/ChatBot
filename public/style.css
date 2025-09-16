@@ -15,8 +15,8 @@ body {
 
 .chat-wrapper {
   width: 90%;
-  max-width: 400px;
-  height: 600px;
+  max-width: approx(1000px);
+  height: approx(900px);
   background: white;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ body {
 }
 
 .chat-header {
-  background: #f0f0f0;
+  background: #5f5757;
   padding: 16px;
   text-align: center;
   font-weight: 600;
@@ -91,7 +91,7 @@ body {
   height: 46px;
   border-radius: 50%;
   border: none;
-  background: #007bff;
+  background: #5f5757;
   color: white;
   cursor: pointer;
   display: flex;
